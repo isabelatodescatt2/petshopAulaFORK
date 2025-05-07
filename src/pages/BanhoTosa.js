@@ -3,7 +3,7 @@ import React from "react"
 function BanhoTosa () { 
     return (
         <div>
-            <h1>BanhoTosa</h1>
+            <h1>Banho e Tosa</h1>
         </div>
     )
 }
