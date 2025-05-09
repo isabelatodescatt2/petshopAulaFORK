@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-function Adestramento () { 
-    return (
-        <div>
-            <h1>Adestramento</h1>
-        </div>
-    )
-}
+const Adestramento = () => {
+	return (
+		<div>
+			<h1>Adestramento</h1>
+		</div>
+	);
+};
 
-export default Adestramento
+export default Adestramento;

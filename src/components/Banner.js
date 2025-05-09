@@ -1,32 +1,28 @@
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import Banner01 from '../imagens/Banner01.jpg';
-import Banner from '../imagens/banner.jpg';
-import Banhoetosa from '../imagens/banhoetosa.jpg';
+import bannerUm from '../imagens/Banner-01.jpg';
+import bannerDois from '../imagens/banner.jpg';
+import bannerTres from '../imagens/banho-e-tosa.png'
 
-function IndividualIntervalsExample() {
+function Banner() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-            <img src={Banner01} alt=''/>
-        </Carousel.Caption>
+
+      <Carousel.Item interval={3500}>
+        <img src={bannerUm} className="carousel-img" alt="Banner 1" />
       </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-            <img src={Banner} alt=''/>
-        </Carousel.Caption>
+
+      <Carousel.Item interval={3500}>
+        <img src={bannerDois} className="carousel-img" alt="Banner 2" />
       </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-            <img src={Banhoetosa} alt=''/>
-        </Carousel.Caption>
+
+      <Carousel.Item interval={3500}>
+        <img src={bannerTres} className="carousel-img" alt="Banner 3" />
       </Carousel.Item>
+
     </Carousel>
   );
 }
 
-export default IndividualIntervalsExample;
+export default Banner;
+
