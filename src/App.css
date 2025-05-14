@@ -33,5 +33,32 @@
 	width: 100%;
 	object-fit: cover;   
 	height: 80vh;
-  }
-  
+}
+
+.section {
+
+	margin: 0 4%;
+}
+
+.section h3 {
+
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 1.3rem;
+	padding: 2%;
+}
+
+.servico img{
+
+	width: 100%;
+	height: 65%;
+}
+
+.tituloSection {
+
+	background-color: #666;
+	width: 100%;
+	padding: 2%;
+	text-align: center;
+}

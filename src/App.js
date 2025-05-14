@@ -5,7 +5,7 @@ import BanhoTosa from "./pages/BanhoTosa";
 import HotelResort from "./pages/HotelResort";
 import Adestramento from "./pages/Adestramento";
 import NavbarMenu from "./pages/NavbarMenu";
-import Banner from "./components/Banner"
+
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/hotel-resort" element={ <HotelResort />} />
           <Route path="/adestramento" element={ <Adestramento />} />
       </Routes>
-	  <Banner/>
+
     </Router>
   );
 }
