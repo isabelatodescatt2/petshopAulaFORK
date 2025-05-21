@@ -1,64 +1,117 @@
-.logo img {
-
+.logo img{
 	height: 100px;
 }
 
-.menu {
-
-	font-weight: 600 !important;
+.menu{
+	font-weight: 500 !important;
 	text-transform: uppercase;
 	padding: 0 20px !important;
 	border-left: 1px solid #666 !important;
-	font-size: 20px !important;
+	font-size: 18px !important;
 }
 
-.menu:first-child {
-
+.menu:first-child{
 	border-left: none !important;
 }
 
-.menu a {
-
+.menu a{
 	color: #666;
 	text-decoration: none;
 }
 
 .menu a:hover {
-
 	opacity: 0.7;
 }
 
-.carousel-img {
+.carrosel .carousel-item{
+	height: 750px;
+	overflow: hidden;
+}
 
+.carrosel .carousel-item img{
 	width: 100%;
-	object-fit: cover;   
-	height: 80vh;
-}
-
-.section {
-
-	margin: 0 4%;
-}
-
-.section h3 {
-
-	background-color: black;
-	color: white;
-	text-align: center;
-	font-size: 1.3rem;
-	padding: 2%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .servico img{
-
 	width: 100%;
-	height: 65%;
+	object-fit: cover;
+	display: block;
+	height: 70%;
+}
+
+.section {
+	margin: 0 4%;
+}
+
+.section h3{
+	background-color: black;
+	color: white;
+	padding: 2%;
+	font-size: 1.2rem;
 }
 
 .tituloSection {
-
-	background-color: #666;
-	width: 100%;
-	padding: 2%;
+	background-color: #bebebe;
+	padding: 3%;
 	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.imagem_cliente {
+	position: relative;
+	margin-left: 140%;
+	margin-top: -30%;
+	z-index: 0;
+}
+
+.txt_clientes{
+	position: relative;
+	z-index: 1;
+	color: #666;
+	font-weight: 200;
+	margin-right: -20%;
+}
+
+.titulo_cliente {
+	padding-top: 5%;
+	padding-bottom: 3%;
+	
+}
+
+.img_Delivery {
+	z-index: 0;
+	padding-left: 4%;
+}
+
+.atendimento_txt {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: rgb(193, 221, 34);
+	z-index: 1;
+	padding-top: 5%;
+	font-weight: bolder;
+	color: black;
+}
+
+.delivery {
+	padding-top: 5%;
+	padding-bottom: 3%;
+	margin-right: 4%;
+	display: flex;
+}
+
+.delivery_titulo {
+	color: black;
+	font-size: 300%;
+	padding-top: 2%;
+	font-weight: bold;
+}
+
+.titulo_delivery {
+	font-size: 200%;
 }

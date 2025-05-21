@@ -6,22 +6,21 @@ import HotelResort from "./pages/HotelResort";
 import Adestramento from "./pages/Adestramento";
 import NavbarMenu from "./pages/NavbarMenu";
 
+const App = () => {
+	return (
+		<Router>
+			<header>
+				<NavbarMenu />
+			</header>
 
-function App() {
-  return (
-    <Router>
-      <NavbarMenu/>
-
-      <Routes>
-          <Route path="/" element={ <Home />} />
-          <Route path="/banho-e-tosa" element={ <BanhoTosa />} />
-          <Route path="/hotel-resort" element={ <HotelResort />} />
-          <Route path="/adestramento" element={ <Adestramento />} />
-      </Routes>
-
-    </Router>
-  );
-}
-
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/banho-e-tosa" element={<BanhoTosa />} />
+				<Route path="/hotel-resort" element={<HotelResort />} />
+				<Route path="/adestramento" element={<Adestramento />} />
+			</Routes>
+		</Router>
+	);
+};
 
 export default App;
