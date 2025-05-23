@@ -115,3 +115,20 @@
 .titulo_delivery {
 	font-size: 200%;
 }
+
+.formulario {
+
+	padding: 2%;
+	background-color: #666;
+}
+
+.forms {
+
+	display: grid;
+}
+
+.mensagemForms{
+
+	
+	height: 200px;
+}
