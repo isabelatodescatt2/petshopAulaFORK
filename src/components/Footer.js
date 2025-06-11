@@ -1,28 +1,16 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Contato from "./Contato";
+import DireitosAutorais from "./DireitosAutorais";
+import Mapa from "./Mapa";
 
-function Footer(props) {
+function Footer() {
   return (
-    <Container>
-      <Row>
-        <Col className='formulario'>
-            <h1>TITULO</h1>
+    <div>
+      <Contato />
 
-            <div className='forms'>
+      <Mapa />
 
-                <input type='text' id="nome" value={ props.nomeInput } placeholder='Nome' />
-                <input type='email' id="email" value={ props.emailInput } placeholder='Email' />
-                <input type='text' id="nome" className='mensagemForms' value={ props.mensagemInput } placeholder='Mensagem' />
-            </div>
-            
-            <button id='enviar' className='botaoEnviar'>Enviar Agora</button>
-        </Col>
-        <Col>
-        
-        </Col>
-      </Row>  
-    </Container>
+      <DireitosAutorais />
+    </div>
   );
 }
 

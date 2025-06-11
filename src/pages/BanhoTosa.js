@@ -1,9 +1,10 @@
 import React from "react";
+import Rotulo from "../components/Rotulo";
 
 const BanhoTosa = () => {
 	return (
 		<div>
-			<h1>BanhoTosa</h1>
+			<Rotulo rotulo='Banho e Tosa' />
 		</div>
 	);
 };
