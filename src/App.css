@@ -1,8 +1,8 @@
-.logo img{
+.logo img {
 	height: 100px;
 }
 
-.menu{
+.menu {
 	font-weight: 500 !important;
 	text-transform: uppercase;
 	padding: 0 20px !important;
@@ -10,11 +10,11 @@
 	font-size: 18px !important;
 }
 
-.menu:first-child{
+.menu:first-child {
 	border-left: none !important;
 }
 
-.menu a{
+.menu a {
 	color: #666;
 	text-decoration: none;
 }
@@ -23,19 +23,19 @@
 	opacity: 0.7;
 }
 
-.carrosel .carousel-item{
+.carrosel .carousel-item {
 	height: 750px;
 	overflow: hidden;
 }
 
-.carrosel .carousel-item img{
+.carrosel .carousel-item img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
 }
 
-.servico img{
+.servico img {
 	width: 100%;
 	object-fit: cover;
 	display: block;
@@ -68,7 +68,7 @@
 	z-index: 0;
 }
 
-.txt_clientes{
+.txt_clientes {
 	position: relative;
 	z-index: 1;
 	color: #666;
@@ -96,6 +96,9 @@
 	padding-top: 5%;
 	font-weight: bolder;
 	color: black;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .delivery {
@@ -127,32 +130,32 @@
 	display: grid;
 }
 
-.mensagemForms{
+.mensagemForms {
 
 	
 	height: 200px;
 }
 
 /* ================== Componente Contato ============== */
-.contato{
+.contato {
 	background-color: #333;
 }
 
-.form{
+.form {
 	margin: 10px 0;
 }
 
-.form input, .form textarea{
+.form input, .form textarea {
 	width: 100%;
 	padding: 5px;
 }
 
-.form textarea{
+.form textarea {
 	height: 300px;
 	resize: none;
 }
 
-.form input[type=submit]{
+.form input[type=submit] {
 	width: auto;
 	padding: 5px 20px;
 	background-color: #666;
@@ -160,27 +163,54 @@
 	float: right;
 }
 
-.info, .icones{
+.info, .icones {
 	color: #fff;
 }
 
-.contato h1{
+.contato h1 {
 	color: #fff;
 	font-size: 25px;
 	text-align: center;
 }
 
-.contato span{
+.contato span {
 	font-size: 20px;
 }
 
-iframe{
+iframe {
 	width: 100%;
 	height: 300px;
 }
 
-.rotulo{
+.rotulo {
 	background-color: #333;
 	color: #fff;
+	width: 800px;
+	padding: 5px 0px 5px 20px;
+	border-radius: 0 20px 20px 0;
+	text-transform: uppercase;
+	margin: 30px 0;
+	font-size: 20pt;
 }
 
+.bannerPromo {
+	width: 1005;
+	background-color: #f1f1f1;
+	padding: 30px 0;
+}
+
+.bannerPromo h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+button{
+	background-color: #333;
+	color: #ffffff;
+	border-radius: 5px !important;
+	padding: 5px 20px;
+}
+
+button:hover {
+	background-color: #000;
+}

@@ -7,7 +7,7 @@ function Rotulo({rotulo}) {
   return (
     <Container fluid>
       <Row>
-        <Col>
+        <Col className='px-0'>
             <h1 className='rotulo'>{ rotulo }</h1>
         </Col>
       </Row>
