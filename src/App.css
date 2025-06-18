@@ -214,3 +214,15 @@ button{
 button:hover {
 	background-color: #000;
 }
+
+
+.photos {
+	display: flex;
+
+}
+
+.photos img {
+	width: 250px;
+	height: 180px;
+	margin: 5px;
+}
